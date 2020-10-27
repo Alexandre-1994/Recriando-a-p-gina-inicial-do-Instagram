@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 body {
@@ -15,6 +15,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .instagram-wrapper {
@@ -33,7 +34,8 @@ body {
 }
 
 .instagram-phone img {
-    height: 50rem;
+    width: 270px;
+    margin: -80px 0px 0px 0px;
 }
 
 .instagram-continue {
@@ -59,7 +61,7 @@ body {
 }
 
 .group:nth-child(1) {
-    min-height: 19rem;
+    display: auto;
 }
 
 .instagram-logo {
